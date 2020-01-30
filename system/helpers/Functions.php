@@ -559,7 +559,7 @@ if(!function_exists('gotomail')) {
     function gotomail($to, $subject = '', $content = '', $namesurname = '')
     {
 
-        require_once SYSURL . "libraries/Mail/Mail.php";
+        require_once SYSDIR . "libraries/Mail/Mail.php";
         $mail = new Mail();
        return $mail->MailSend($to, $subject, $content, $namesurname);
     }
@@ -569,7 +569,7 @@ if(!function_exists('sendSMTPMail'))
 {
     function sendSMTPMail($data = array(), $type = "system", $config = array()){ // $type -> system or user
 
-        require_once SYSURL . "libraries/Mail/Mail.php";
+        require_once SYSDIR . "libraries/Mail/Mail.php";
         $mail = new Mail($config);
 
         $mail->from($data["from"], $data["from"]);
@@ -601,7 +601,7 @@ if(!function_exists('sendMail'))
 {
     function sendMail($to, $subject = '', $content = '', $namesurname = '', $type = "lokalisyeri")
     {
-        include_once SYSURL . "libraries/Mail/mail_view.php";
+        include_once SYSDIR . "libraries/Mail/mail_view.php";
         $mail_content = mailContent($subject, $content, $namesurname, $type);
 
         $random_hash = md5(date('r', time()));
@@ -624,7 +624,7 @@ if(!function_exists('sentMail'))
 {
     function sentMail($alici, $konu = 'lokalfirsat.com', $mesaj = '', $sayfa = '', $namesurname = '', $username = '', $password = '', $dogrulama_kodu = ''){
 
-        include_once SYSURL . "libraries/Mail/mail_view.php";
+        include_once SYSDIR . "libraries/Mail/mail_view.php";
         $content = mailContent($mesaj, $namesurname, $username, $password, $dogrulama_kodu);
         $random_hash = md5(date('r', time()));
 
@@ -858,7 +858,7 @@ if(!function_exists('getRealIp')) {
 if(!function_exists('ftp_upload_file')) {
     function ftp_upload_file($directory = "", $destination_file, $source_file, $new_file = false, $type = "")
     {
-        require_once SYSURL . "libraries/FtpClient/FtpClient.php";
+        require_once SYSDIR . "libraries/FtpClient/FtpClient.php";
         $ftp = new FtpClient($type);
 
         $ftp->connect();
@@ -881,7 +881,7 @@ if(!function_exists('ftp_upload_file')) {
 if(!function_exists('ftp_delete_file')) {
     function ftp_delete_file($directory = "", $file, $type = "")
     {
-        require_once SYSURL . "libraries/FtpClient/FtpClient.php";
+        require_once SYSDIR . "libraries/FtpClient/FtpClient.php";
         $ftp = new FtpClient($type);
 
         $ftp->connect();

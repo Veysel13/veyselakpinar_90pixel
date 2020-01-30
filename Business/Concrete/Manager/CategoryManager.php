@@ -14,6 +14,7 @@ use Business\ManagerBase\Init;
 use Core\Exceptions\ResponseException;
 use Core\Language\Lang;
 use Core\Upload\ImageManager;
+use Core\Information\SendMail;
 use DataAccess\Concrete\MySql\MySqlCategoryDal;
 
 class CategoryManager  extends Init implements ICategoryService
@@ -21,11 +22,13 @@ class CategoryManager  extends Init implements ICategoryService
 
     private $categoryDal;
     private $uploadManager;
+    private $sendMail;
     public function __construct()
     {
         parent::__construct();
         $this->categoryDal=new MySqlCategoryDal();
         $this->uploadManager=new ImageManager();
+        $this->sendMail=new SendMail();
     }
 
     public function GetList()
@@ -120,6 +123,8 @@ class CategoryManager  extends Init implements ICategoryService
                 }
             }
         }
+
+        $this->sendMail->Send("veyselakpinar13@gmail.com");
 
 
         return $result;

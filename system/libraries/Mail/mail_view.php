@@ -2,7 +2,8 @@
 function mailContent($konu = '', $mesaj = '', $adsoyad = '')
 {
 
-    $logo = "https://www.bulbulyap.com/Web/assets/img/logo-white.png";
+    //$logo = "https://www.bulbulyap.com/Web/assets/img/logo-white.png";
+    $logo = "https://90pixel.com/static/assets/images/logo.svg";
 
     $content = "  
 
@@ -13,7 +14,7 @@ function mailContent($konu = '', $mesaj = '', $adsoyad = '')
     <meta name='viewport' content='initial-scale=1.0'/>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
     <meta name='format-detection' content='telephone=no'/>
-    <title>Bul Bul Yap</title>
+    <title> 90 Pixel</title>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic,greek' rel='stylesheet' type='text/css'>
     <style type='text/css'>
 
@@ -492,9 +493,9 @@ a img{ border: 0 !important;}
 											<td valign='top' style='ffont-family: Roboto, Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); font-weight: 300; text-align: center; word-break: break-word; line-height: 21px;'>
 												<span style='font-size: 16px; line-height: 21px;color:#fff;'> İletişim Numarası 
 												&nbsp; &nbsp; &nbsp;
-												<a style='color: #fff;' href='mailto:info@bulbulyap.com' target='_blank'>info@bulbulyap.com</a> 
+												<a style='color: #fff;' href='mailto:info@90pixel.com' target='_blank'>info@90pixel.com</a> 
 												&nbsp; &nbsp; &nbsp;
-												<a href='https://www.bulbulyap.com' style='color:white;'>www.bulbulyap.com</a></span>
+												<a href='https://www.90pixel.com' style='color:white;'>www.90pixel.com</a></span>
 											</td>
 											<!-- end COPY RIGHT content -->
 										</tr><!--start space height -->
@@ -523,7 +524,7 @@ a img{ border: 0 !important;}
 											</tr><!--end space height -->
 											<tr><!-- start COPY RIGHT content -->
 												<td align='center' style='font-size: 13px; font-family: Roboto, Arial, Helvetica, sans-serif; color: rgb(255, 255, 255); font-weight: 300; text-align: center; word-break: break-word; line-height: 21px;'>
-													<span style='font-weight: 300; font-size: 16px; line-height: 21px;'>Bul Bul Yap&nbsp;, all rights reserved © 2019 </span>
+													<span style='font-weight: 300; font-size: 16px; line-height: 21px;'>90pixel&nbsp;, all rights reserved © 2019 </span>
 												</td>
 											  <!-- end COPY RIGHT content -->
 											</tr><!--start space height -->

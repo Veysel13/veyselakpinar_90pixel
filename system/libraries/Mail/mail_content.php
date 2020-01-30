@@ -82,6 +82,15 @@ if ( ! function_exists('mail_content')) {
                                         <a target='_blank' href='https://www.bulbulyap.com/' style='color: white;'>Siteye Git</a></button>
                                    
                                    ";
+        }elseif ($content_type == "bilgilendirme") {
+
+            $content = "<br style='line-height: 24px;'>
+                                  <h2><span style='font-size: 18px;font-weight: 700'>Veri Transferi başarı bir şekilde gerçekleştirilmiştir.</span>
+                                 <br style='line-height: 24px;'>
+                                   <br style='line-height: 24px;'>
+                                   <p style='font-size: 20px'>Bilgieri kontrol edebilirsiniz</p>
+                              
+                                   ";
         }
 
         return $content;

@@ -35,11 +35,11 @@ class Mail
 	}
 
 	public function MailSend($to,$subject,$content,$namesurname){
-        require_once SYSURL . "libraries/Mail/mail_view.php";
+        require_once SYSDIR . "libraries/Mail/mail_view.php";
         $mail_content = mailContent($subject, $content, $namesurname);
 
-        require_once SYSURL . "libraries/Mail/class.phpmailer.php";
-        require_once SYSURL . "libraries/Mail/class.smtp.php";
+        require_once SYSDIR . "libraries/Mail/class.phpmailer.php";
+        require_once SYSDIR . "libraries/Mail/class.smtp.php";
         $mail = new PHPMailer();
         $mail->IsSMTP();
         $mail->CharSet = $this->config["charset"];
