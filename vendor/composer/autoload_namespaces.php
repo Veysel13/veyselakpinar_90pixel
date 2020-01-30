@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ProxyManager\\' => array($vendorDir . '/ocramius/proxy-manager/src'),
-    'PHPExcel' => array($vendorDir . '/codeplex/phpexcel', $vendorDir . '/phpoffice/phpexcel/Classes'),
+    'PHPExcel' => array($vendorDir . '/phpoffice/phpexcel/Classes'),
+    'Mockery' => array($vendorDir . '/mockery/mockery/library'),
+    'Highlight\\' => array($vendorDir . '/scrivo/highlight.php'),
+    'HighlightUtilities\\' => array($vendorDir . '/scrivo/highlight.php'),
 );
