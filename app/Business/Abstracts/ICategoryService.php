@@ -12,4 +12,9 @@ namespace App\Business\Abstracts;
 interface ICategoryService
 {
 
+    public function GetList();
+    public function Get($id);
+    public function FileUpload(array  $model);
+    public function FtpConnection(array  $model);
+    public function DataTransfer($path);
 }

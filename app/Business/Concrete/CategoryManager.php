@@ -15,7 +15,6 @@ use App\Entity\Category;
 use App\Business\Abstracts\ICategoryService;
 class CategoryManager implements ICategoryService
 {
-
     private $file;
     private $ftp;
     private $information;

@@ -17,6 +17,7 @@ class HomeController extends Controller
 {
 
     private $category_db;
+
     public function __construct()
     {
         $this->category_db=new CategoryManager();

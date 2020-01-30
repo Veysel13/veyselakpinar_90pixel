@@ -25,20 +25,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
+            <state relative-caret-position="238">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#129#171#0#PHP" expanded="true" />
+                <element signature="e#312#403#0#PHP" />
+                <element signature="e#409#476#0#PHP" />
+                <element signature="e#482#702#0#PHP" />
+                <element signature="e#708#772#0#PHP" />
+                <element signature="e#778#995#0#PHP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Business/Concrete/CategoryManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="e#613#708#0#PHP" />
                 <element signature="e#714#913#0#PHP" />
@@ -46,6 +51,15 @@
                 <element signature="e#1284#1747#0#PHP" />
                 <element signature="e#1753#4518#0#PHP" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Business/Abstracts/ICategoryService.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -59,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Business/Functions/FtpClient.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="-442">
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
@@ -102,7 +116,6 @@
         <option value="$PROJECT_DIR$/app/Manager/Functions/DataTransfer.php" />
         <option value="$PROJECT_DIR$/app/Manager/Functions/UploadManager.php" />
         <option value="$PROJECT_DIR$/app/Manager/Concrete/CategoryManager.php" />
-        <option value="$PROJECT_DIR$/app/Business/Abstracts/ICategoryService.php" />
         <option value="$PROJECT_DIR$/app/Business/Functions/DataTransfer.php" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/config/database.php" />
@@ -127,10 +140,11 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Helpers/helpers.php" />
         <option value="$PROJECT_DIR$/resources/views/nested.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php" />
         <option value="$PROJECT_DIR$/app/Entity/Category.php" />
-        <option value="$PROJECT_DIR$/app/Business/Concrete/CategoryManager.php" />
         <option value="$PROJECT_DIR$/app/Business/Functions/FtpClient.php" />
+        <option value="$PROJECT_DIR$/app/Business/Concrete/CategoryManager.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php" />
+        <option value="$PROJECT_DIR$/app/Business/Abstracts/ICategoryService.php" />
       </list>
     </option>
   </component>
@@ -254,7 +268,28 @@
             <path>
               <item name="90pixel" type="b2602c69:ProjectViewProjectNode" />
               <item name="90pixel" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="90pixel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="90pixel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="90pixel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="90pixel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="90pixel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="90pixel" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,12 +358,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580399488597</updated>
-      <workItem from="1580399489820" duration="19821000" />
+      <workItem from="1580399489820" duration="20166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19821000" />
+    <option name="totallyTimeSpent" value="20166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,13 +496,6 @@
     <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Business/Abstracts/ICategoryService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
@@ -685,30 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
-          <folding>
-            <element signature="e#129#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Business/Concrete/CategoryManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#613#708#0#PHP" />
-            <element signature="e#714#913#0#PHP" />
-            <element signature="e#919#1278#0#PHP" />
-            <element signature="e#1284#1747#0#PHP" />
-            <element signature="e#1753#4518#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Business/Functions/FtpHelper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -718,8 +722,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Business/Functions/FtpClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="-442">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#129#171#0#PHP" expanded="true" />
+            <element signature="e#312#403#0#PHP" />
+            <element signature="e#409#476#0#PHP" />
+            <element signature="e#482#702#0#PHP" />
+            <element signature="e#708#772#0#PHP" />
+            <element signature="e#778#995#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Business/Abstracts/ICategoryService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Business/Concrete/CategoryManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#613#708#0#PHP" />
+            <element signature="e#714#913#0#PHP" />
+            <element signature="e#919#1278#0#PHP" />
+            <element signature="e#1284#1747#0#PHP" />
+            <element signature="e#1753#4518#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
