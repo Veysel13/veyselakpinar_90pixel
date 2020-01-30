@@ -15,7 +15,7 @@ class Category extends Model
 {
 
     protected $table="categories";
-    protected $fillable=['name','top_category','created_at'];
+    protected $fillable=['name','top_category','created_at','updated_at'];
 
 
     public function children(){
