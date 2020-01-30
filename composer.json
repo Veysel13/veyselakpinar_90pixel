@@ -1,0 +1,35 @@
+{
+    "name": "veysel/lawyer",
+    "authors": [
+        {
+            "name": "veysel akpınar",
+            "email": "veyselakpinar13@gmail.com"
+        }
+    ],
+    "autoload": {
+    "psr-4": {
+        "Business\\": "Business/",
+        "Core\\": "Core/",
+        "System\\Language\\": "system/Language/",
+        "System\\General\\": "system/general/",
+        "Core\\Exceptions\\": "Core/Exceptions/",
+        "DataAccess\\": "DataAccess/",
+        "Entity\\": "Entity/",
+        "Web\\": "Web/",
+        "Web\\Controllers\\": "Web/Controllers/",
+        "Web\\Admin\\": "Web/Admin/",
+        "Web\\User\\": "Web/User/",
+        "WebService\\": "WebService/"
+
+    }
+},
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "firebase/php-jwt": "^5.0",
+        "giggsey/libphonenumber-for-php": "^8.10",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "doctrine/migrations": "^2.2",
+        "phpoffice/phpexcel": "^1.8"
+    }
+}

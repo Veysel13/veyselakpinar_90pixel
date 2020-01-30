@@ -1,0 +1,15 @@
+  RewriteEngine on
+  RewriteCond  %{REQUEST_FILENAME} !-f
+  RewriteCond  %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+
+  RewriteRule  ^(.*)$ index.php?url=$1 [NC,L,QSA]
+
+
+#RewriteCond %{SERVER_PORT} !=443
+#RewriteCond %{HTTP_HOST} ^!(.*).bulbulyap.com
+#RewriteRule (.*) https://bulbulyap.com/$1 [R=301]
+#
+#RewriteCond %{HTTP_HOST} ^(.*).bulbulyap.com
+#RewriteCond %{SERVER_PORT} !=443
+#RewriteRule (.*) https://%{HTTP_HOST} [R=301]
