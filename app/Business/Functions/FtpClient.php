@@ -9,8 +9,6 @@
 namespace App\Business\Functions;
 
 
-use function Psy\debug;
-
 class FtpClient
 {
 

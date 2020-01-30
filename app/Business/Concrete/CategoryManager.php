@@ -48,13 +48,11 @@ class CategoryManager implements ICategoryService
     {
         $image_path=null;
 
-
         if ($model["file"]["size"]>0){
             $image_path=$this->file->ImageAdd($model["file"]);
         }
 
         if ($image_path!=null){
-
             $real_path="file\\".$image_path;
             $result=$this->DataTransfer($real_path);
         }
@@ -73,7 +71,6 @@ class CategoryManager implements ICategoryService
                 $result=$this->DataTransfer($real_path);
             }
         }
-
 
         //Bilgilendirme
 
@@ -149,9 +146,6 @@ class CategoryManager implements ICategoryService
                 }
             }
         }
-
-        //$this->sendMail->Send("veyselakpinar13@gmail.com");
-
 
         return $result;
     }
